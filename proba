@@ -1,8 +1,8 @@
-name = "Andrey"
-print(name)
-age = 50
-print(age)
-new_age = 55
-print(new_age)
-Is_Student = True
-print(Is_Student)
+while True:
+    first = int(input("Введите цифру: "))
+    if first % 3 == 0:
+        print("угадал!")
+        break
+    else:
+        first = int(input("не угадал ;) надо было другую цифру!"))
+        print("попробуй еще раз ввести цифру:")
